@@ -1,0 +1,14 @@
+en:
+  label: English
+  icon: 🇺🇸
+  index: "/index_en"
+  archive: "/archive_en"
+  tags: "/tags_en"
+  about: "/about_en"
+ch:
+  label: 中文
+  icon: ch
+  index: "/index"
+  archive: "/archive_ch"
+  tags: "/tags_ch"
+  about: "/about_ch"

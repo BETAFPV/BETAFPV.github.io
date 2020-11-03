@@ -1,0 +1,39 @@
+{% assign day = include.date | date: "%-d" %}
+{% if page.lang == 'en' %}
+    {% case day %}
+        {% when '1' or '21' or '31' %} {{ day }}<sup>st</sup>
+        {% when '2' or '22' %} {{ day }}<sup>nd</sup>
+        {% when '3' or '23' %} {{ day }}<sup>rd</sup>
+        {% else %} {{ day }}<sup>th</sup>
+    {% endcase %}
+{% elsif  page.lang == 'fr' %}
+    {% if day == "1" %}
+        {{ day }}<sup>er</sup>
+    {% else %} {{ day }}
+    {% endif %}
+{% endif %}
+{% if page.lang == 'en' %}
+    {{ include.date | date: "%B" }}
+{% elsif page.lang == 'fr' %}
+    {% assign m = include.date | date: "%-m" %}
+    {% case m %}
+            {% when  '1' %}janvier
+            {% when  '2' %}février
+            {% when  '3' %}mars
+            {% when  '4' %}avril
+            {% when  '5' %}mai
+            {% when  '6' %}juin
+            {% when  '7' %}juillet
+            {% when  '8' %}août
+            {% when  '9' %}septembre
+            {% when '10' %}octobre
+            {% when '11' %}novembre
+            {% when '12' %}décembre
+    {% endcase %}
+{% endif %}
+{% if page.lang == 'en' || page.lang == 'fr' %}
+    {{ include.date | date: "%Y" }}
+{% endif %}
+{% if page.lang == 'ch' %}
+    {{ include.date | date: "%Y年%-m月%-d号" }}
+{% endif %}

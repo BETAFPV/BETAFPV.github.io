@@ -1,0 +1,84 @@
+selectLang:
+  en: "EN"
+  ch: "中文"
+name:
+  en: "BetaOpen"
+  ch: "BetaOpen"
+avatarDesc:
+  en: "Micro Whoop Drone Racing"
+  ch: "穿越机的世界"
+maxim:
+  en: "Hello World!"
+  ch: "你好，世界！"
+nav:
+  en:
+    - {title: Home, description: Home, url: '/index_en'}
+    - {title: Blogs, description: archive, url: '/archive_en'}
+    - {title: Tags, description: tags, url: '/tags_en'}
+    - {title: About, description: about, url: "/about_en"}
+  ch:
+    - {title: 主页, description: Home, url: '/index'}
+    - {title: 文章, description: archive, url: '/archive_ch'}
+    - {title: 标签, description: tags, url: '/tags_ch'}
+    - {title: 关于, description: about, url: "/about_ch"}
+sidePanel:
+  en:
+    goto: "Go to "
+    home: "'s homepage"
+  ch:
+    goto: "前往"
+    home: "的主页"
+index:
+  en:
+    showRead: "Read More"
+  ch:
+    showRead: "阅读全文"
+archive:
+  en:
+    title: "Archive"
+  ch:
+    title: "文章"
+footer:
+  en:
+    weibo: "Weibo"
+    github: "GitHub"
+    visit: "Scanning Visitor Volume: "
+  ch:
+    weibo: "的微博"
+    github: "的GitHub"
+    visit: "本站总访问量："
+post:
+  en:
+    read: "Read: "
+    times: " times"
+  ch:
+    read: "阅读："
+    times: " 次"
+reward:
+  en:
+    reward: "Reward"
+    rewardTitle: "Support the author"
+    thanks: "Thank you for your support!"
+    payExplain: "Scanning code to reward"
+    Alipay: "Alipay"
+    Tenpay: "Tenpay"
+    close: "Close"
+    previous: "Previous："
+    next: "Next："
+  ch:
+    reward: "打赏"
+    rewardTitle: "打赏，支持一下"
+    thanks: "感谢您的支持，我会继续努力!"
+    payExplain: "打扫码打赏，请量力而行"
+    scanExplain: "扫码支持"
+    scanExplain2: "扫一扫"
+    Alipay: "支付宝"
+    Tenpay: "微信支付"
+    close: "关闭"
+    previous: "上一篇："
+    next: "下一篇："
+
+
+welcome_message:
+  en: "Wlecome to Micro Whoop Drone"
+  ch: "欢迎来到穿越机的世界"

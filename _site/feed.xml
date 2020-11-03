@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BetaOpen</title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 03 Nov 2020 12:01:23 +0800</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2020 12:01:23 +0800</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Introduce</title>
+        <description>&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], [&quot;\\(&quot;,&quot;\\)&quot;] ],
+      processEscapes: true
+    }
+  });
+&lt;/script&gt;
+
+&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This site is used to store open source materials and communicate with users.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.github.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Nov 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/11/Introduce/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/11/Introduce/</guid>
+        
+        <category>blog</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>GitHub Pages+Jekyll</title>
+        <description>&lt;h3 id=&quot;概述&quot;&gt;概述&lt;/h3&gt;
+&lt;p&gt;采用GitHub Pages+Jekyll搭建一个快捷的博客，可以按照项目建立标签，同时可以存放供客户使用的文档等。&lt;/p&gt;
+
+&lt;p&gt;另外，Jekyll提供有评论功能，在某个项目下，评论能用作类似issues功能的模块，客户的评论，我们能直接回复和解决，后面客户遇到相同的问题，到这里找答案。
+这样能免去客服一部分工作，我们也能更好的和客户交流。&lt;/p&gt;
+
+&lt;h3 id=&quot;使用&quot;&gt;使用&lt;/h3&gt;
+&lt;p&gt;使用很简单，文档采用MD格式，存放到仓库目录的/_post/下，提交即可。&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 03 Nov 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/11/GitHub-Pages+Jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/11/GitHub-Pages+Jekyll/</guid>
+        
+        <category>博客</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

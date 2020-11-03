@@ -1,0 +1,41 @@
+<section class="post-comments">
+
+
+    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+    <script>
+    var cloudTieConfig = {
+      url: document.location.href, 
+      sourceId: "",
+      productKey: "aa395cf7778f458492060f3f53301b7c",
+      target: "cloud-tie-wrapper"
+    };
+    var yunManualLoad = true;
+    Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+    </script>
+
+
+{% if site.disqus_username %}
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = "{{site.url}}{{page.url}}";
+    this.page.identifier = "{{page.id}}";
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      var disqus_shortname = "{{site.disqus_username}}";
+      s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script id="dsq-count-scr" src="//weixinyu.disqus.com/count.js" async></script>
+    <!-- <script id="dsq-count-scr" src="//" + "{{site.disqus_username}}" + ".disqus.com/count.js" async></script>-->
+{% endif %}           
+
+  
+</section>
+                 

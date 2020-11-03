@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="main-post-list">
+  <ol class="post-list">
+    {% for post in site.posts %}
+    {% if post.lang == page.lang %}
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <p class="excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}&hellip;</p>
+      <div class="post-list__meta">
+        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
+          <img src="/images/calendar.png" width="20px" />
+          {% include date.html date=post.date %}</time>
+        <div class = "tag-img-icon">
+          <img src="/images/tag-icon.svg" width="20px" />
+        </div>
+        <a href="{{site.data.languages[page.lang].tags}}">
+          <div class = "post-list-icon-mate">
+            <span class="post-list__meta--tags-right">{{ post.tags }}</span>
+          </div>
+          <div class = "post-list-small-mate">
+          <a class="btn-border-small" href={{ post.url }}>{{site.data.translations.index[page.lang].showRead}} » </a>
+          </div>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ol>
+
+  {% comment %} {% include pagination.html %} {% endcomment %}
+
+</div>

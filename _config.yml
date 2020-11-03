@@ -1,0 +1,76 @@
+# Basic
+title: BetaOpen
+subtitle: OpenSource
+description:
+# 头像里面的标题
+avatarTitle: BetaOpen
+# 头像里面的描述
+avatarDesc: BetaOpen
+url: "https://betafpv.com/"
+
+# Comment
+disqus_username: BETAFPV
+# disqus_username: http-www-weixinyu-info
+#·comment:
+
+
+# Social
+social:
+    weibo: 
+    github: BETAFPV
+    # twitter:
+    mail: linkwenzhi@gmail.com
+
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+# baidu:
+#    id: c63c3f73d45d69e4524c352af95e094e
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+# ga:
+#     id: UA-84134159-3
+#     host: auto
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/slowlythinking/slowlythinking.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color:
+# cover_color: clear
+# cover_color: blue
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 文章, description: archive, url: '/archive'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 关于, description: about, url: "/about_ch"}
+
+defaultLanguage: ch
+
+
+# Pagination
+#·gems: [jekyll-paginate,jekyll-sitemap]
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
+
+excerpt_separator: <!--excerpt-->

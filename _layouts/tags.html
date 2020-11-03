@@ -1,0 +1,56 @@
+---
+layout: page
+group: navigation
+---
+{% include JB/setup %}
+
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}
+  {% if site.JB.tags_list.provider == "custom" %}
+    {% include custom/tags_list %}
+  {% else %}
+    {% if tags_list.first[0] == null %}
+      {% for tag in tags_list %}
+      	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
+      {% endfor %}
+    {% else %}
+      {% for tag in tags_list %}
+        {% assign tagsLanguage = tag[1] | where:"lang", page.lang %}
+        {% if tagsLanguage.size !=0 %}
+        	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ tagsLanguage.size }}</span></a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+  {% assign tags_list = nil %}
+
+</ul>
+
+<div class = "card">
+{% for tag in site.tags %}
+  {% assign tagsLanguage = tag[1] | where:"lang", page.lang %}
+  {% if tagsLanguage.size !=0 %}
+    <h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
+    <ul>
+      {% assign pages_list = tag[1] %}
+      {% if site.JB.pages_list.provider == "custom" %}
+        {% include custom/pages_list %}
+      {% else %}
+        {% for node in tagsLanguage %}
+          {% if node.title != null %}
+            {% if group == null or group == node.group %}
+            	{% if page.url == node.url %}
+            	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+            	{% else %}
+            	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+            	{% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+    </ul>
+  {% endif %}
+{% endfor %}
+</div>
