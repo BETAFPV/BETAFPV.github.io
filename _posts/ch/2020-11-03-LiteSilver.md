@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "LiteSilver"
+comments: true
 lang: ch
 date: 2020-11-03
 description: "HEXO配置，HEXO+Github，搭建博客"

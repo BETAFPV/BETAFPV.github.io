@@ -1,3 +1,11 @@
+I"A<p> 
+<br />
+</p>
+
+<p>
+这里是用来交流的地方，关于穿越机、关于飞行、以及其他你想和我们说的。
+</p>
+
 <section class="post-comments">
 
 
@@ -15,7 +23,7 @@
     </script>
 
 
-{% if site.disqus_username %}
+
 <div id="disqus_thread"></div>
 <script>
 
@@ -37,8 +45,9 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             
-{% endif %}           
+           
 
   
 </section>
-                 
+
+:ET

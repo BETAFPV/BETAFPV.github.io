@@ -1,3 +1,11 @@
+I"Q<p> 
+<br />
+</p>
+
+<p>
+This is a place to communicate, about micro whoop drone, about flying, and anything else you want to talk to us about.
+</p>
+
 <section class="post-comments">
 
 
@@ -15,7 +23,7 @@
     </script>
 
 
-{% if site.disqus_username %}
+
 <div id="disqus_thread"></div>
 <script>
 
@@ -37,8 +45,9 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             
-{% endif %}           
+           
 
   
 </section>
-                 
+
+:ET

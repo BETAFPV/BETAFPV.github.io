@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "GitHub Pages+Jekyll"
 lang: ch
 date: 2020-11-03
