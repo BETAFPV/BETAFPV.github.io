@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2020 12:01:23 +0800</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2020 12:01:23 +0800</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2020 14:13:23 +0800</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2020 14:13:23 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -22,7 +22,8 @@
 
 &lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;This site is used to store open source materials and communicate with users.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+This site is used to store open source materials and communicate with users.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.github.io/&lt;/a&gt;&lt;/p&gt;
@@ -32,6 +33,52 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
         <guid isPermaLink="true">http://localhost:4000/2020/11/Introduce/</guid>
         
         <category>blog</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lite Brushed V2</title>
+        <description>&lt;h3 id=&quot;概述&quot;&gt;概述&lt;/h3&gt;
+
+&lt;p&gt;Lite Brushed v2有刷空心杯，飞起来非常轻盈，适合新手练习。&lt;/p&gt;
+
+&lt;h3 id=&quot;相关文档&quot;&gt;相关文档&lt;/h3&gt;
+
+&lt;p&gt;使用说明书:&lt;/p&gt;
+
+&lt;h3 id=&quot;常见问题&quot;&gt;常见问题&lt;/h3&gt;
+&lt;p&gt;1、支持的接收机：板载bayang协议接收机，预留sbus/dmsx接收机焊盘。&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 03 Nov 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/11/Lite_Brushed_v2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/11/Lite_Brushed_v2/</guid>
+        
+        <category>LiteBrushed</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>LiteSilver</title>
+        <description>&lt;h3 id=&quot;概述&quot;&gt;概述&lt;/h3&gt;
+&lt;p&gt;LiteSilver 1-2s是在LiteSilverware 的基础升级来的，采用MM32F103主控，对OSD、使用上做了部分修改。&lt;/p&gt;
+
+&lt;p&gt;LiteSilver 支持多种协议的接收机，并添加了USB功能，能方便进行飞控固件的升级。&lt;/p&gt;
+
+&lt;h3 id=&quot;相关文档&quot;&gt;相关文档&lt;/h3&gt;
+
+&lt;p&gt;使用说明书:&lt;/p&gt;
+
+&lt;h3 id=&quot;常见问题&quot;&gt;常见问题&lt;/h3&gt;
+
+</description>
+        <pubDate>Tue, 03 Nov 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/11/LiteSilver/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/11/LiteSilver/</guid>
+        
+        <category>LiteSilver</category>
         
         
       </item>
