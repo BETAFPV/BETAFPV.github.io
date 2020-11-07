@@ -8,8 +8,8 @@ avatarDesc:
   en: "Micro Whoop Drone Racing"
   ch: "穿越机的世界"
 maxim:
-  en: "Hello World!"
-  ch: "你好，世界！"
+  en: ""
+  ch: ""
 nav:
   en:
     - {title: Home, description: Home, url: '/index_en'}
