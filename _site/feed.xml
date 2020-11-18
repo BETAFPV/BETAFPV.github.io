@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Nov 2020 11:26:32 +0800</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2020 11:26:32 +0800</lastBuildDate>
+    <pubDate>Wed, 18 Nov 2020 11:40:05 +0800</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2020 11:40:05 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -95,9 +95,17 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
 
 &lt;p&gt;LiteSilver 支持多种协议的接收机，并添加了USB功能，能方便进行飞控固件的升级。&lt;/p&gt;
 
-&lt;h3 id=&quot;相关文档&quot;&gt;相关文档&lt;/h3&gt;
+&lt;h3 id=&quot;飞控介绍&quot;&gt;飞控介绍&lt;/h3&gt;
 
-&lt;p&gt;使用说明书:&lt;/p&gt;
+&lt;h5 id=&quot;1飞行模式&quot;&gt;1、飞行模式&lt;/h5&gt;
+
+&lt;h5 id=&quot;2osd&quot;&gt;2、OSD&lt;/h5&gt;
+
+&lt;h3 id=&quot;下载&quot;&gt;下载&lt;/h3&gt;
+
+&lt;p&gt;1、使用说明书&lt;/p&gt;
+
+&lt;p&gt;2、固件版本&lt;/p&gt;
 
 &lt;h3 id=&quot;常见问题&quot;&gt;常见问题&lt;/h3&gt;
 
