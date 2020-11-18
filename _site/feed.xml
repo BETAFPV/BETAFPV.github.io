@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Nov 2020 10:41:45 +0800</pubDate>
-    <lastBuildDate>Sat, 07 Nov 2020 10:41:45 +0800</lastBuildDate>
+    <pubDate>Wed, 18 Nov 2020 11:16:27 +0800</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2020 11:16:27 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -41,14 +41,42 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
         <title>Lite Brushed V2</title>
         <description>&lt;h3 id=&quot;概述&quot;&gt;概述&lt;/h3&gt;
 
-&lt;p&gt;Lite Brushed v2有刷空心杯，飞起来非常轻盈，适合新手练习。&lt;/p&gt;
+&lt;p&gt;Lite Brushed v2有刷空心杯，飞起来非常轻盈，适合新手练习。 &lt;/p&gt;
 
-&lt;h3 id=&quot;相关文档&quot;&gt;相关文档&lt;/h3&gt;
+&lt;h3 id=&quot;飞控介绍&quot;&gt;飞控介绍&lt;/h3&gt;
 
-&lt;p&gt;使用说明书:&lt;/p&gt;
+&lt;h5 id=&quot;1飞行模式&quot;&gt;1、飞行模式 &lt;/h5&gt;
+
+&lt;h5 id=&quot;2configure使用&quot;&gt;2、configure使用&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;固件更新&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/11/18/Mht4U1cDGSvg2BI.png&quot; alt=&quot;image-20201118111020801&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rates设置&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/11/18/Tmsk2DbOQzZuHXd.png&quot; alt=&quot;image-20201118110907185&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;查看传感器数据等&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;下载&quot;&gt;下载&lt;/h3&gt;
+
+&lt;p&gt;1、使用说明书&lt;/p&gt;
+
+&lt;p&gt;2、固件版本 &lt;/p&gt;
 
 &lt;h3 id=&quot;常见问题&quot;&gt;常见问题&lt;/h3&gt;
-&lt;p&gt;1、支持的接收机：板载bayang协议接收机，预留sbus/dmsx接收机焊盘。&lt;/p&gt;
+&lt;p&gt;1、支持的接收机：板载bayang协议接收机，预留sbus/dmsx接收机焊盘。 &lt;/p&gt;
+
+&lt;p&gt;2、自稳模式飞行，若飞机出现偏移现象，可以校准下加速度计，如果偏移现象不能解决，检查飞控安装是否正确，电机是否工作正常。 &lt;/p&gt;
 
 </description>
         <pubDate>Tue, 03 Nov 2020 00:00:00 +0800</pubDate>

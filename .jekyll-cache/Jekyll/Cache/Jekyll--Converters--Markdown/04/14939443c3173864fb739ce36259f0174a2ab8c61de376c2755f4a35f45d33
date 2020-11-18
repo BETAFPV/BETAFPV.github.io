@@ -1,0 +1,40 @@
+I"5<h3 id="概述">概述</h3>
+
+<p>Lite Brushed v2有刷空心杯，飞起来非常轻盈，适合新手练习。 </p>
+
+<h3 id="飞控介绍">飞控介绍</h3>
+
+<h5 id="飞行模式">飞行模式 </h5>
+
+<h5 id="configure使用">configure使用</h5>
+
+<ul>
+  <li>
+    <p>固件更新</p>
+  </li>
+  <li>
+    <p><img src="https://i.loli.net/2020/11/18/Mht4U1cDGSvg2BI.png" alt="image-20201118111020801" style="zoom:50%;" /></p>
+  </li>
+  <li>
+    <p>Rates设置</p>
+  </li>
+  <li>
+    <p><img src="https://i.loli.net/2020/11/18/Tmsk2DbOQzZuHXd.png" alt="image-20201118110907185" style="zoom:50%;" /></p>
+  </li>
+  <li>
+    <p>查看传感器数据等</p>
+  </li>
+</ul>
+
+<h3 id="下载">下载</h3>
+
+<p>1、使用说明书</p>
+
+<p>2、固件版本 </p>
+
+<h3 id="常见问题">常见问题</h3>
+<p>1、支持的接收机：板载bayang协议接收机，预留sbus/dmsx接收机焊盘。 </p>
+
+<p>2、自稳模式飞行，若飞机出现偏移现象，可以校准下加速度计，如果偏移现象不能解决，检查飞控安装是否正确，电机是否工作正常。 </p>
+
+:ET
