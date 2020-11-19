@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Nov 2020 11:40:05 +0800</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2020 11:40:05 +0800</lastBuildDate>
+    <pubDate>Thu, 19 Nov 2020 18:41:31 +0800</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2020 18:41:31 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -33,6 +33,59 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
         <guid isPermaLink="true">http://localhost:4000/2020/11/Introduce/</guid>
         
         <category>blog</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Configure</title>
+        <description>&lt;h3 id=&quot;概述&quot;&gt;概述&lt;/h3&gt;
+&lt;p&gt;Configure 是LiteSilver飞控的配套软件，通过图形界面进行飞控参数的设置，以及固件更新。&lt;/p&gt;
+
+&lt;p&gt;目前还在完善中。&lt;/p&gt;
+
+&lt;h3 id=&quot;使用说明&quot;&gt;使用说明&lt;/h3&gt;
+&lt;h5 id=&quot;1连接飞控&quot;&gt;1、连接飞控&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;FC Status 显示当前飞控的基本信息，包括飞控名称、版本、编译时间等&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/ZT3gMpavE9XCmWY.png&quot; alt=&quot;image-20201119182947100&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;2固件更新&quot;&gt;2、固件更新&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;针对有刷和无刷飞控，选择对应的选项&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/HjdIFvNu8JnyQpq.png&quot; alt=&quot;image-20201119183209728&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;3rates值设置&quot;&gt;3、Rates值设置&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;连接飞控后，在Setup页面，选择Enable Expert Mode, 再进入Rates设置&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/b8tEM1QSBwNn4rA.png&quot; alt=&quot;image-20201119183551660&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;其他问题&quot;&gt;其他问题&lt;/h3&gt;
+
+</description>
+        <pubDate>Tue, 03 Nov 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/11/Configure/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/11/Configure/</guid>
+        
+        <category>Configure</category>
         
         
       </item>
@@ -108,6 +161,30 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
 &lt;p&gt;2、固件版本&lt;/p&gt;
 
 &lt;h3 id=&quot;常见问题&quot;&gt;常见问题&lt;/h3&gt;
+
+&lt;p&gt;1、如何设置飞控的rate值&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;通过OSD设置
+    &lt;ul&gt;
+      &lt;li&gt;默认是Starter模式，如下显示&lt;/li&gt;
+      &lt;li&gt;进入OSD，在config菜单下，选中mode选项，往左拨动Roll摇杆两下，再往右拨动两下，会切换到Advanced模式，会出现Rates值设置。&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/azXJ9osThe6Og5G.png&quot; alt=&quot;image-20201119175408821&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;通过Configure设置&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;更新最新固件&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;使用Configure上位机，在rates选项下设置。详细见这里&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         <pubDate>Tue, 03 Nov 2020 00:00:00 +0800</pubDate>

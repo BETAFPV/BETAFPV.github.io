@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Configure</title>
+  <meta name="description" content="概述Configure 是LiteSilver飞控的配套软件，通过图形界面进行飞控参数的设置，以及固件更新。目前还在完善中。使用说明1、连接飞控      FC Status 显示当前飞控的基本信息，包括飞控名称、版本、编译时间等          2、固件更新      针对有刷和无刷飞控，选择对应的选项   ...">
+  <meta name="author" content="leopardpan">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Configure">
+  <meta name="twitter:description" content="概述Configure 是LiteSilver飞控的配套软件，通过图形界面进行飞控参数的设置，以及固件更新。目前还在完善中。使用说明1、连接飞控      FC Status 显示当前飞控的基本信息，包括飞控名称、版本、编译时间等          2、固件更新      针对有刷和无刷飞控，选择对应的选项   ...">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Configure">
+  <meta property="og:description" content="概述Configure 是LiteSilver飞控的配套软件，通过图形界面进行飞控参数的设置，以及固件更新。目前还在完善中。使用说明1、连接飞控      FC Status 显示当前飞控的基本信息，包括飞控名称、版本、编译时间等          2、固件更新      针对有刷和无刷飞控，选择对应的选项   ...">
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="canonical" href="http://localhost:4000/2020/11/Configure/">
+  <link rel="alternate" type="application/rss+xml" title="BetaOpen" href="http://localhost:4000/feed.xml">
+
+  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
+
+<!-- 站点统计 -->
+  <script
+  async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
+
+<!-- 百度统计 -->
+  
+
+<!-- google 统计 -->
+  
+
+</head>
+
+
+
+  <body>
+
+<span class="mobile btn-mobile-menu">
+  <div class="nav_container">
+     <nav class="nav-menu-item" style = "margin:0 auto">
+        
+          <i class="nav-menu-item"><a href="/index" title="Home" class="blog-button">主页</a></i>
+        
+          <i class="nav-menu-item"><a href="/archive_ch" title="archive" class="blog-button">文章</a></i>
+        
+          <i class="nav-menu-item"><a href="/tags_ch" title="tags" class="blog-button">标签</a></i>
+        
+          <i class="nav-menu-item"><a href="/about_ch" title="about" class="blog-button">关于</a></i>
+        
+        
+          
+          
+            
+              
+              <i class="nav-menu-item"><a href="/index_en" class="blog-button">English</a></i>
+            
+        
+          
+          
+      </nav>
+  </div>
+</span>
+
+
+    <!--<header class="panel-cover panel-cover--collapsed" style="background-image: url('/images/background-cover.jpg')">-->
+
+<header class="panel-cover panel-cover--collapsed">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <!-- 头像效果-start -->
+        <div class="ih-item circle effect right_to_left">
+            <a href="/index" title="前往BetaOpen的主页" class="blog-button">
+                <div class="img"><img src="/images/avatar.jpg" alt="img"></div>
+                <div class="info">
+                    <div class="info-back">
+                        <h2>
+                            
+                                BetaOpen
+                            
+                        </h2>
+                        <p>
+                           
+                                穿越机的世界
+                            
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- 头像效果-end -->
+        <h1 class="panel-cover__title panel-title"><a href="/index" title="前往BetaOpen的主页" class="blog-button">BetaOpen</a></h1>
+        <span class="panel-cover__subtitle panel-subtitle"></span>
+        <hr class="panel-cover__divider" />
+
+        
+        <p class="panel-cover__description">欢迎来到穿越机的世界</p>
+        
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                
+                  <li class="navigation__item"><a href="/index" title="Home">主页</a></li>
+                
+                  <li class="navigation__item"><a href="/archive_ch" title="archive">文章</a></li>
+                
+                  <li class="navigation__item"><a href="/tags_ch" title="tags">标签</a></li>
+                
+                  <li class="navigation__item"><a href="/about_ch" title="about">关于</a></li>
+                
+                
+                  
+                  
+                    
+                      
+                      <li class="navigation__item"><a href="/index_en">English</a></li>
+                    
+                
+                  
+                  
+              </ul>
+            </nav>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    
+    <div class="panel-cover--overlay cover-disabled"></div>
+    
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title">Configure</h1>
+    <div class="post-meta">
+      <img src="/images/calendar.png" width="20px"/>
+      <time datetime="2020-11-03 00:00:00 +0800" itemprop="datePublished" class="post-meta__date date">
+
+
+
+
+    2020年11月3号
+
+</time>
+
+      <span id="busuanzi_container_page_pv"> | 阅读：<span id="busuanzi_value_page_pv"></span> 次</span>
+    </p>
+    </div>
+  </header>
+
+  <section class="post">
+    <h3 id="概述">概述</h3>
+<p>Configure 是LiteSilver飞控的配套软件，通过图形界面进行飞控参数的设置，以及固件更新。</p>
+
+<p>目前还在完善中。</p>
+
+<h3 id="使用说明">使用说明</h3>
+<h5 id="1连接飞控">1、连接飞控</h5>
+
+<ul>
+  <li>
+    <p>FC Status 显示当前飞控的基本信息，包括飞控名称、版本、编译时间等</p>
+  </li>
+  <li>
+    <p><img src="https://i.loli.net/2020/11/19/ZT3gMpavE9XCmWY.png" alt="image-20201119182947100" style="zoom:67%;" /></p>
+  </li>
+</ul>
+
+<h5 id="2固件更新">2、固件更新</h5>
+
+<ul>
+  <li>
+    <p>针对有刷和无刷飞控，选择对应的选项</p>
+  </li>
+  <li>
+    <p><img src="https://i.loli.net/2020/11/19/HjdIFvNu8JnyQpq.png" alt="image-20201119183209728" style="zoom:67%;" /></p>
+  </li>
+</ul>
+
+<h5 id="3rates值设置">3、Rates值设置</h5>
+
+<ul>
+  <li>
+    <p>连接飞控后，在Setup页面，选择Enable Expert Mode, 再进入Rates设置</p>
+  </li>
+  <li>
+    <p><img src="https://i.loli.net/2020/11/19/b8tEM1QSBwNn4rA.png" alt="image-20201119183551660" style="zoom:67%;" /></p>
+  </li>
+</ul>
+
+<h3 id="其他问题">其他问题</h3>
+
+
+
+  </section>
+</article>
+
+<section>
+	
+            
+
+         
+            
+          
+            
+              
+              
+              
+            
+          
+            
+              
+                <li class="previous">
+                  <a href="/2020/11/Lite_Brushed_v2/" data-toggle="tooltip" data-placement="top" title="Lite Brushed V2">
+                    上一篇：<span>Lite Brushed V2</span>
+                  </a>
+                </li>
+              
+              
+              
+            
+          
+            
+              
+              
+              
+            
+          
+            
+              
+              
+              
+            
+          
+
+
+          
+            
+              
+              
+              
+            
+          
+            
+              
+              
+              
+            
+          
+            
+              
+              
+              
+            
+          
+            
+              
+              
+              
+            
+          
+            
+          
+
+</section>
+
+<section class="post-comments">
+
+
+    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+    <script>
+    var cloudTieConfig = {
+      url: document.location.href, 
+      sourceId: "",
+      productKey: "aa395cf7778f458492060f3f53301b7c",
+      target: "cloud-tie-wrapper"
+    };
+    var yunManualLoad = true;
+    Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+    </script>
+
+
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://betaopen.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+           
+
+  
+</section>
+                 
+
+            <section class="footer">
+    <footer>
+        <div class = "footer_div">
+        <nav class="cover-navigation navigation--social">
+          <ul class="navigation">
+
+          
+
+          
+          <!-- Github -->
+          <li class="navigation__item_social">
+            <a href="https://github.com/BETAFPV" title="@BETAFPV 的GitHub" target="_blank">
+              <i class='social fa fa-github fa-2x'></i>
+              <span class="label">Github</span>
+            </a>
+          </li>
+          
+
+          
+
+          
+
+          <!-- RSS -->
+          <li class="navigation__item_social">
+            <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+              <i class='social fa fa-rss fa-2x'></i>
+              <span class="label">RSS</span>
+            </a>
+          </li>
+
+          
+          <!-- Email -->
+          <li class="navigation__item_social">
+            <a href="mailto:linkwenzhi@gmail.com" title="Contact me">
+              <i class='social fa fa-envelope fa-2x'></i>
+              <span class="label">Email</span>
+            </a>
+          </li>
+          
+
+          </ul>
+        </nav>
+
+        </div>
+
+        <div class = "footer_div">
+          <p></p>
+          
+
+          <!-- 访问统计 -->
+          <div align="right">
+          <span id="busuanzi_container_site_pv">
+            Copyright &copy; BetaOpen 2020 | 本站总访问量：
+            <span id="busuanzi_value_site_pv"></span>
+          </span>
+          </div>
+        </div>
+    </footer>
+</section>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+<script type="text/javascript" src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  </body>
+
+</html>
