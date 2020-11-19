@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Nov 2020 18:41:31 +0800</pubDate>
-    <lastBuildDate>Thu, 19 Nov 2020 18:41:31 +0800</lastBuildDate>
+    <pubDate>Thu, 19 Nov 2020 18:47:42 +0800</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2020 18:47:42 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -77,6 +77,10 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
     &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/b8tEM1QSBwNn4rA.png&quot; alt=&quot;image-20201119183551660&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&quot;下载&quot;&gt;下载&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1&quot;&gt;v0.1&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;其他问题&quot;&gt;其他问题&lt;/h3&gt;
 
@@ -160,6 +164,8 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
 
 &lt;p&gt;2、固件版本&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1&quot;&gt;v0.1&lt;/a&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;常见问题&quot;&gt;常见问题&lt;/h3&gt;
 
 &lt;p&gt;1、如何设置飞控的rate值&lt;/p&gt;
@@ -180,7 +186,7 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
         &lt;p&gt;更新最新固件&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;使用Configure上位机，在rates选项下设置。详细见这里&lt;/p&gt;
+        &lt;p&gt;使用Configure上位机，在rates选项下设置。详细见&lt;a href=&quot;https://betafpv.github.io/2020/11/Configure/&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;

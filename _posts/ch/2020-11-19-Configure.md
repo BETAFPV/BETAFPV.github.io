@@ -40,6 +40,10 @@ Configure 是LiteSilver飞控的配套软件，通过图形界面进行飞控参
 
 
 
+### 下载
+
+[v0.1](https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1)
+
 ### 其他问题
 
 
