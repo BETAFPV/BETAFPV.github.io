@@ -5,9 +5,105 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Nov 2020 18:47:42 +0800</pubDate>
-    <lastBuildDate>Thu, 19 Nov 2020 18:47:42 +0800</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2020 10:18:22 +0800</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2020 10:18:22 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>LiteSilver</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;LiteSilver 1-2S is upgraded from the base of LiteSilverware, using MM32F103 chip, and making some modifications on OSD and usage.&lt;/p&gt;
+
+&lt;p&gt;LiteSilver supports a variety of protocols for receivers and adds USB functionality for easy firmware updates.&lt;/p&gt;
+
+&lt;h3 id=&quot;introduce&quot;&gt;Introduce&lt;/h3&gt;
+
+&lt;h5 id=&quot;1flymode&quot;&gt;1、Flymode&lt;/h5&gt;
+
+&lt;h5 id=&quot;2osd&quot;&gt;2、OSD&lt;/h5&gt;
+
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
+&lt;p&gt;1、Manual&lt;/p&gt;
+
+&lt;p&gt;2、Firmware&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1&quot;&gt;v0.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
+&lt;p&gt;1、How to set the rate value of the flight control&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Via OSD
+    &lt;ul&gt;
+      &lt;li&gt;The default is Starter mode, as shown below&lt;/li&gt;
+      &lt;li&gt;Enter OSD, in the CONFIG menu, select the Mode option, toggle the Roll rocker left for two times, and toggle the Roll rocker right for two times, then switch to Advanced mode, and the Rates setting will appear&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/azXJ9osThe6Og5G.png&quot; alt=&quot;image-20201119175408821&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Via Configure
+    &lt;ul&gt;
+      &lt;li&gt;Update the latest firmware&lt;/li&gt;
+      &lt;li&gt;Use Configure, under the rates option. See &lt;a href=&quot;https://betafpv.github.io/2020/11/Configure/&quot;&gt;here&lt;/a&gt; for details.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 23 Nov 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/11/LiteSilver_en/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/11/LiteSilver_en/</guid>
+        
+        <category>LiteSilver</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Configure</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;Configure is the auxiliary software for LiteSilver flight control. It sets flight control parameters and updates firmware through graphical interface.&lt;/p&gt;
+
+&lt;p&gt;It’s still a work in progress.&lt;/p&gt;
+
+&lt;h3 id=&quot;introduce&quot;&gt;Introduce&lt;/h3&gt;
+
+&lt;h4 id=&quot;1connect-flight-control&quot;&gt;1、Connect flight control&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FC Status displays the basic information of the current flight control, including the name of the flight control, version, compile time, etc&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/ZT3gMpavE9XCmWY.png&quot; alt=&quot;image-20201119182947100&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2update-firmware&quot;&gt;2、Update firmware&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Select the corresponding option for brush and brushless FCS&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/HjdIFvNu8JnyQpq.png&quot; alt=&quot;image-20201119183209728&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;3set-rates&quot;&gt;3、Set Rates&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After connecting the flight control, select Enable Expert Mode in the Setup page and enter Rates Settings&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;https://i.loli.net/2020/11/19/b8tEM1QSBwNn4rA.png&quot; alt=&quot;image-20201119183551660&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1&quot;&gt;v0.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 23 Nov 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/11/Configure_en/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/11/Configure_en/</guid>
+        
+        <category>Configure</category>
+        
+        
+      </item>
     
       <item>
         <title>Introduce</title>
