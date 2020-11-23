@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Nov 2020 10:18:22 +0800</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2020 10:18:22 +0800</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2020 10:47:54 +0800</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2020 10:47:54 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -43,7 +43,7 @@
   &lt;li&gt;Via Configure
     &lt;ul&gt;
       &lt;li&gt;Update the latest firmware&lt;/li&gt;
-      &lt;li&gt;Use Configure, under the rates option. See &lt;a href=&quot;https://betafpv.github.io/2020/11/Configure/&quot;&gt;here&lt;/a&gt; for details.&lt;/li&gt;
+      &lt;li&gt;Use Configure, under the rates option. See **&lt;a href=&quot;https://betafpv.github.io/2020/11/Configure_en/&quot;&gt;here&lt;/a&gt; **for details.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;

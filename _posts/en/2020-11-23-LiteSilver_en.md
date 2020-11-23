@@ -45,4 +45,4 @@ LiteSilver supports a variety of protocols for receivers and adds USB functional
   - ![image-20201119175408821](https://i.loli.net/2020/11/19/azXJ9osThe6Og5G.png)
 - Via Configure
   - Update the latest firmware
-  - Use Configure, under the rates option. See [here](https://betafpv.github.io/2020/11/Configure/) for details.
+  - Use Configure, under the rates option. See **[here](https://betafpv.github.io/2020/11/Configure_en/) **for details.
