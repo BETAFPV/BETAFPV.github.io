@@ -64,7 +64,7 @@ nav:
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于, description: about, url: "/about_ch"}
 
-defaultLanguage: ch
+defaultLanguage: en
 
 
 # Pagination
