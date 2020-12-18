@@ -33,7 +33,7 @@ LiteSilver supports a variety of protocols for receivers and adds USB functional
 
 [v0.1](https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1)
 
-
+[v0.2](https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.2)
 
 
 ### Other

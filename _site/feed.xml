@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Nov 2020 19:18:28 +0800</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2020 19:18:28 +0800</lastBuildDate>
+    <pubDate>Fri, 18 Dec 2020 15:57:35 +0800</pubDate>
+    <lastBuildDate>Fri, 18 Dec 2020 15:57:35 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -28,6 +28,8 @@
 &lt;p&gt;2、Firmware&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1&quot;&gt;v0.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.2&quot;&gt;v0.2&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
 &lt;p&gt;1、How to set the rate value of the flight control&lt;/p&gt;
@@ -261,6 +263,8 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
 &lt;p&gt;2、固件版本&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1&quot;&gt;v0.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.2&quot;&gt;v0.2&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;常见问题&quot;&gt;常见问题&lt;/h3&gt;
 

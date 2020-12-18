@@ -1,0 +1,48 @@
+I"�<h3 id="概述">概述</h3>
+<p>LiteSilver 1-2s是在LiteSilverware 的基础升级来的，采用MM32F103主控，对OSD、使用上做了部分修改。</p>
+
+<p>LiteSilver 支持多种协议的接收机，并添加了USB功能，能方便进行飞控固件的升级。</p>
+
+<h3 id="飞控介绍">飞控介绍</h3>
+
+<h5 id="1飞行模式">1、飞行模式</h5>
+
+<h5 id="2osd">2、OSD</h5>
+
+<h3 id="下载">下载</h3>
+
+<p>1、使用说明书</p>
+
+<p>2、固件版本</p>
+
+<p><a href="https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1">v0.1</a></p>
+
+<p><a href="https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.2">v0.2</a></p>
+
+<h3 id="常见问题">常见问题</h3>
+
+<p>1、如何设置飞控的rate值</p>
+
+<ul>
+  <li>通过OSD设置
+    <ul>
+      <li>默认是Starter模式，如下显示</li>
+      <li>进入OSD，在config菜单下，选中mode选项，往左拨动Roll摇杆两下，再往右拨动两下，会切换到Advanced模式，会出现Rates值设置。</li>
+      <li><img src="https://i.loli.net/2020/11/19/azXJ9osThe6Og5G.png" alt="image-20201119175408821" /></li>
+    </ul>
+  </li>
+  <li>
+    <p>通过Configure设置</p>
+
+    <ul>
+      <li>
+        <p>更新最新固件</p>
+      </li>
+      <li>
+        <p>使用Configure上位机，在rates选项下设置。详细见<a href="https://betafpv.github.io/2020/11/Configure/">这里</a></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+:ET

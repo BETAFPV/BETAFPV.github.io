@@ -31,6 +31,8 @@ LiteSilver 支持多种协议的接收机，并添加了USB功能，能方便进
 
 [v0.1](https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1)
 
+[v0.2](https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.2)
+
 ### 常见问题
 
 1、如何设置飞控的rate值
