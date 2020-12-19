@@ -1,4 +1,4 @@
-I"<h3 id="overview">Overview</h3>
+I"�<h3 id="overview">Overview</h3>
 <p>LiteSilver 1-2S is upgraded from the base of LiteSilverware, using MM32F103 chip, and making some modifications on OSD and usage.</p>
 
 <p>LiteSilver supports a variety of protocols for receivers and adds USB functionality for easy firmware updates.</p>
@@ -15,6 +15,8 @@
 <p>2、Firmware</p>
 
 <p><a href="https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1">v0.1</a></p>
+
+<p><a href="https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.2">v0.2</a></p>
 
 <h3 id="other">Other</h3>
 <p>1、How to set the rate value of the flight control</p>
@@ -33,5 +35,11 @@
       <li>Use Configure, under the rates option. See **<a href="https://betafpv.github.io/2020/11/Configure_en/">here</a> **for details.</li>
     </ul>
   </li>
+</ul>
+
+<p>2、The motor cannot start normally</p>
+
+<ul>
+  <li></li>
 </ul>
 :ET

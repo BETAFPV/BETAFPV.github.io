@@ -46,3 +46,10 @@ LiteSilver supports a variety of protocols for receivers and adds USB functional
 - Via Configure
   - Update the latest firmware
   - Use Configure, under the rates option. See **[here](https://betafpv.github.io/2020/11/Configure_en/) **for details.
+
+
+
+2、The motor cannot start normally
+
+- The reason is that the idle speed value is too low. You can just increase the idle speed value through the MIN option under the MOTOR menu in OSD.
+

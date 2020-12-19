@@ -1,4 +1,4 @@
-I"�<h3 id="概述">概述</h3>
+I"�<h3 id="概述">概述</h3>
 <p>LiteSilver 1-2s是在LiteSilverware 的基础升级来的，采用MM32F103主控，对OSD、使用上做了部分修改。</p>
 
 <p>LiteSilver 支持多种协议的接收机，并添加了USB功能，能方便进行飞控固件的升级。</p>
@@ -17,7 +17,7 @@
 
 <p><a href="https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1">v0.1</a></p>
 
-<p><a href="https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.2">0.2</a></p>
+<p><a href="https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.2">v0.2</a></p>
 
 <h3 id="常见问题">常见问题</h3>
 
@@ -45,4 +45,9 @@
   </li>
 </ul>
 
+<p>2、马达启动的时候有卡顿，出现转一下停一下的现象</p>
+
+<ul>
+  <li>原因是飞控设置的怠速值低了，马达不能正常启动。通过OSD中的motor菜单下MIN选项调高启动怠速值可以解决。</li>
+</ul>
 :ET
