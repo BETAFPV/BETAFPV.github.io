@@ -1,0 +1,47 @@
+I"�<h3 id="overview">Overview</h3>
+
+<p>Configure is the auxiliary software for LiteSilver flight control. It sets flight control parameters and updates firmware through graphical interface.</p>
+
+<p>It’s still a work in progress.</p>
+
+<h3 id="introduce">Introduce</h3>
+
+<h4 id="1connect-flight-control">1、Connect flight control</h4>
+
+<ul>
+  <li>FC Status displays the basic information of the current flight control, including the name of the flight control, version, compile time, etc</li>
+  <li><img src="https://i.loli.net/2020/11/19/ZT3gMpavE9XCmWY.png" alt="image-20201119182947100" style="zoom:67%;" /></li>
+</ul>
+
+<h4 id="2update-firmware">2、Update firmware</h4>
+
+<ul>
+  <li>Select the corresponding option for brush and brushless FCS</li>
+  <li><img src="https://i.loli.net/2020/11/19/HjdIFvNu8JnyQpq.png" alt="image-20201119183209728" style="zoom:67%;" /></li>
+</ul>
+
+<h4 id="3set-rates">3、Set Rates</h4>
+
+<ul>
+  <li>After connecting the flight control, select Enable Expert Mode in the Setup page and enter Rates Settings</li>
+  <li><img src="https://i.loli.net/2020/11/19/b8tEM1QSBwNn4rA.png" alt="image-20201119183551660" style="zoom:67%;" /></li>
+</ul>
+
+<h3 id="download">Download</h3>
+
+<ul>
+  <li><a href="https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.1">v0.1</a></li>
+</ul>
+
+<h3 id="other">Other</h3>
+
+<ul>
+  <li>How to update firmware
+    <ul>
+      <li>Press and hold the button at the bottom of the flight control, and then plug in the USB. At this time, only the power led is on (red led).</li>
+      <li>Switch to config’s Flasher page, click Local, and load the firmware via the Open File button</li>
+      <li></li>
+    </ul>
+  </li>
+</ul>
+:ET

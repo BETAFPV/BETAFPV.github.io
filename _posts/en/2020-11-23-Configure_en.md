@@ -44,5 +44,16 @@ It's still a work in progress.
 
 
 
-
 ### Other
+
+- How to update firmware
+  - Press and hold the button at the bottom of the flight control, and then plug in the USB. At this time, only the power led is on (red led).
+  - Switch to config's Flasher page, click Local, and load the firmware via the Open File button.
+  - In the Communication Area, select the serial port number corresponding to the flight control and connect.
+  - Check Warn Checkbox, then click the Download button and wait for the downloading.
+  - When the progress bar is complete, disconnect the USB and the update is complete.
+  - Note: You do not need to connect flight control on the setup page to update the firmware.
+  - Note: It is necessary to rebind after firmware update.
+  - Note: Updating the firmware does not erase the bootloader, so don't worry if the update fails, try a few more times.
+  - <img src="https://i.loli.net/2020/12/30/QXnVR1gDZejwypE.png" alt="image-20201230100022190" style="zoom:80%;" />
+

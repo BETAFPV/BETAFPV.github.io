@@ -1,4 +1,4 @@
-I"6<h3 id="overview">Overview</h3>
+I"Ì<h3 id="overview">Overview</h3>
 
 <p>Configure is the auxiliary software for LiteSilver flight control. It sets flight control parameters and updates firmware through graphical interface.</p>
 
@@ -34,4 +34,18 @@
 </ul>
 
 <h3 id="other">Other</h3>
+
+<ul>
+  <li>How to update firmware
+    <ul>
+      <li>Press and hold the button at the bottom of the flight control, and then plug in the USB. At this time, only the power led is on (red led).</li>
+      <li>Switch to configâ€™s Flasher page, click Local, and load the firmware via the Open File button</li>
+      <li>In the Communication Area, select the serial port number corresponding to the flight control and connect</li>
+      <li>Check Warn Checkbox, then click the Download button and wait for the downloading</li>
+      <li>When the progress bar is complete, disconnect the USB and the update is complete.</li>
+      <li></li>
+    </ul>
+  </li>
+</ul>
+
 :ET

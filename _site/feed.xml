@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Dec 2020 11:31:43 +0800</pubDate>
-    <lastBuildDate>Sat, 19 Dec 2020 11:31:43 +0800</lastBuildDate>
+    <pubDate>Wed, 30 Dec 2020 10:08:10 +0800</pubDate>
+    <lastBuildDate>Wed, 30 Dec 2020 10:08:10 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -104,6 +104,23 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to update firmware
+    &lt;ul&gt;
+      &lt;li&gt;Press and hold the button at the bottom of the flight control, and then plug in the USB. At this time, only the power led is on (red led).&lt;/li&gt;
+      &lt;li&gt;Switch to config’s Flasher page, click Local, and load the firmware via the Open File button.&lt;/li&gt;
+      &lt;li&gt;In the Communication Area, select the serial port number corresponding to the flight control and connect.&lt;/li&gt;
+      &lt;li&gt;Check Warn Checkbox, then click the Download button and wait for the downloading.&lt;/li&gt;
+      &lt;li&gt;When the progress bar is complete, disconnect the USB and the update is complete.&lt;/li&gt;
+      &lt;li&gt;Note: You do not need to connect flight control on the setup page to update the firmware.&lt;/li&gt;
+      &lt;li&gt;Note: It is necessary to rebind after firmware update.&lt;/li&gt;
+      &lt;li&gt;Note: Updating the firmware does not erase the bootloader, so don’t worry if the update fails, try a few more times.&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.loli.net/2020/12/30/QXnVR1gDZejwypE.png&quot; alt=&quot;image-20201230100022190&quot; style=&quot;zoom:80%;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         <pubDate>Mon, 23 Nov 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/11/Configure_en/</link>
