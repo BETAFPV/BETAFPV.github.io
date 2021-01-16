@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Dec 2020 10:08:10 +0800</pubDate>
-    <lastBuildDate>Wed, 30 Dec 2020 10:08:10 +0800</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2021 14:17:21 +0800</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2021 14:17:21 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -251,6 +251,8 @@ From： &lt;a href=&quot;https://betafpv.github.io/&quot;&gt;https://betafpv.git
 &lt;p&gt;1、使用说明书&lt;/p&gt;
 
 &lt;p&gt;2、固件版本 &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.3&quot;&gt;v0.2&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;常见问题&quot;&gt;常见问题&lt;/h3&gt;
 &lt;p&gt;1、支持的接收机：板载bayang协议接收机，预留sbus/dmsx接收机焊盘。 &lt;/p&gt;

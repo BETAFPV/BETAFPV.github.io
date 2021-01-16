@@ -42,7 +42,7 @@ Lite Brushed v2有刷空心杯，飞起来非常轻盈，适合新手练习。&n
 
 2、固件版本&nbsp;
 
-
+[v0.2](https://github.com/BETAFPV/BETAFPV.github.io/releases/tag/0.3)
 
 
 ### 常见问题
